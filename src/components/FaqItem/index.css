@@ -1,0 +1,36 @@
+/* Write your code here. */
+.each-faq {
+  border: 1px solid #d7dae6;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  width: 800px;
+}
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.question-and-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line {
+  background-color: #f1f5f8;
+  width: 100%;
+}
+
+.question {
+  color: #52606d;
+  font-size: 18px;
+}
+
+.answer {
+  color: #9aa5b1;
+  font-size: 12px;
+}

@@ -1,0 +1,28 @@
+/* Write your code here. */
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: 0px 4px 16px 0px;
+  margin: 20px;
+  font-family: 'Roboto';
+}
+.heading {
+  color: #cb8805;
+  text-align: center;
+  font-size: 36px;
+}
+
+.faqs-list {
+  list-style-type: none;
+  height: 75%;
+}
